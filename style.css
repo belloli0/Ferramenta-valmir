@@ -39,3 +39,14 @@ body {
     margin: 0;
     font-size: 18px;
 }
+
+.question {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pquestion {
+    font-size: 22px;
+    color: white;
+}
