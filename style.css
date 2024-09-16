@@ -21,3 +21,12 @@ body {
     align-items: center;
     margin-top: 20px;
 }
+
+.materia {  
+    border-radius: 10px;
+}
+
+.namemateria {
+    padding: 5px;
+    font-weight: bold;
+}
