@@ -17,6 +17,7 @@ body {
 .linhas {
     display: flex;
     flex-direction: row;
-   gap: 80px;
+    gap: 80px;
     align-items: center;
+    margin-top: 20px;
 }
