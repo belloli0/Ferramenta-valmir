@@ -26,10 +26,15 @@ body {
     border-radius: 10px;
     border: solid 2px white;
     margin-left: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .namemateria {
     padding: 5px;
     font-weight: bold;
-    color: white
+    color: white;
+    margin: 5px;
 }
