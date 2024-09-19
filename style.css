@@ -12,6 +12,7 @@ body {
     height: 220px;
     width: 400px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .linhas {
