@@ -54,6 +54,6 @@ margin-top: 10px;
 }
 
 .container:hover {
-    transform: rotateX(360deg);
+    transform: rotate(360deg);
     transition: transform 2s ease-in-out;
 }
