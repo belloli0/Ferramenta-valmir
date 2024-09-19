@@ -55,5 +55,5 @@ margin-top: 10px;
 
 .container:hover {
     transform: rotateY(360deg);
-    transition: transform 2s ease-in-out;
+    transition: transform 3s ease-in-out;
 }
