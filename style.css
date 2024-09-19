@@ -55,5 +55,5 @@ margin-top: 10px;
 
 .container:hover {
     transform: rotateX(360deg);
-    transition: transform 300ms ease;
+    transition: transform 2s ease-in-out;
 }
