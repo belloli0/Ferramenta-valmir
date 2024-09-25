@@ -56,5 +56,4 @@ margin-top: 10px;
 .container:hover {
     transform: rotateY(360deg);
     transition: transform 3s ease-in-out;
-    overflow: hidden;
 }
