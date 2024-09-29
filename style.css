@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 8px;
+    backface-visibility: hidden;
 }
 
 .namemateria {
@@ -54,6 +55,6 @@ margin-top: 10px;
 }
 
 .container:hover {
-    transform: rotateY(360deg);
-    transition: transform 3s ease-in-out;
+    transform-style: preserve-3d;
+    transition: transform 2s ease-in-out;
 }
