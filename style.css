@@ -54,6 +54,7 @@ margin-top: 10px;
 .pquestion {
     font-size: 26px;
     color: white;
+    backface-visibility: hidden;
 }
 
 .container:hover {
