@@ -67,11 +67,13 @@ backface-visibility: hidden;
 .resposta {
 display: flex;
 text-align: center;
+transform: rotateY(180deg);
 }
 
 .resposta :hover {
-    transform: rotateY(180deg);
-    visibility: visible;
+    margin-left: 50px;
+    margin-top: -60px;
+   
 }
 
 .presposta {
