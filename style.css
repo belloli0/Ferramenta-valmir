@@ -67,7 +67,6 @@ backface-visibility: hidden;
 .resposta {
 display: flex;
 text-align: center;
-visibility: hidden;
 }
 
 .resposta :hover {
