@@ -14,7 +14,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transform-style: preserve-3d;
-    transition: transform 2s ease-in-out;
+    transition: transform 500ms ease-in-out;
 }
 
 .linhas {
@@ -58,11 +58,6 @@ backface-visibility: hidden;
    
 }
 
-.container:hover {
-    transform: rotateY(180deg);
-    
-
-}
 
 .resposta {
 display: flex;
@@ -70,13 +65,15 @@ text-align: center;
 transform: rotateY(180deg);
 }
 
-.resposta :hover {
-    margin-left: 50px;
-    margin-top: -60px;
-   
-}
-
 .presposta {
     color: cyan;
     font-size: 26px;
+}
+
+.resposta, 
+.question {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
