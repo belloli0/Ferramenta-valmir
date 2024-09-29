@@ -72,7 +72,7 @@ visibility: hidden;
 
 .resposta :hover {
     transform: rotateY(180deg);
-    backface-visibility: visible;
+    visibility: visible;
 }
 
 .presposta {
