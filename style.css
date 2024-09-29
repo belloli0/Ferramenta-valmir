@@ -56,6 +56,6 @@ margin-top: 10px;
 
 .container:hover {
     transform: rotateY(180deg);
-    backface-visibility: hidden;
+    
 
 }
