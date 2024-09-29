@@ -66,6 +66,7 @@ backface-visibility: hidden;
 display: flex;
 text-align: center;
 transform: rotateY(180deg);
+width: 100%;
 }
 
 .presposta {
