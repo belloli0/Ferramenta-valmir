@@ -63,3 +63,14 @@ backface-visibility: hidden;
     
 
 }
+
+.resposta {
+display: flex;
+text-align: center;
+
+}
+
+.presposta {
+    color: cyan;
+    font-size: 26px;
+}
