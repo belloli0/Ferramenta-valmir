@@ -77,5 +77,5 @@ transform: rotateY(180deg);
 .question {
     backface-visibility: hidden;
     position: absolute;
-    
+    width: 100%;
 }
