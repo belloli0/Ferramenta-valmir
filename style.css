@@ -63,10 +63,13 @@ height: 50%;
 
 .container:hover {
     transform: rotateY(180deg);
+    
+}
+.container:hover .resposta {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .resposta {
 display: flex;
